@@ -164,12 +164,13 @@ export const publicationsByYear = [
 ]
 
 export const timeline = [
-  { period: '2016 – 2022', role: '教授兼系主任', org: '中央警察大學 鑑識科學學系' },
-  { period: '2010 – 2016', role: '電算中心主任', org: '中央警察大學' },
-  { period: '2004 – 至今', role: '教授', org: '中央警察大學 鑑識科學學系' },
-  { period: '1999 – 2004', role: '副教授', org: '中央警察大學 鑑識科學學系' },
-  { period: '1997 – 1999', role: '資訊管理科主任', org: '弘光技術學院' },
-  { period: '1993 – 1996', role: '電機與電腦工程 博士', org: 'SUNY Buffalo' },
+  { period: '2016 – 2022', role: '教授兼系主任', org: '中央警察大學 鑑識科學學系', tag: '學術領導' },
+  { period: '2010 – 2016', role: '電算中心主任', org: '中央警察大學', tag: '資安與資訊系統' },
+  { period: '2004 – 至今', role: '專任教授 / 鑑識技術顧問', org: '中央警察大學 鑑識科學學系', tag: '鑑識專業諮詢' },
+  { period: '1999 – 2004', role: '副教授', org: '中央警察大學 鑑識科學學系', tag: '教學研究' },
+  { period: '1997 – 1999', role: '資訊管理科主任', org: '弘光技術學院', tag: '資管專案與實務' },
+  { period: '1995 – 1995', role: '研發工程師', org: '新竹工業技術研究院 (ITRI)', tag: '技術研發' },
+  { period: '1993 – 1996', role: '電機與電腦工程 博士', org: '美國紐約州立大學水牛城分校 (SUNY Buffalo)', tag: '影像訊號研究' },
 ]
 
 // TODO: 課程內容與價格為示意，請依實際開課資訊調整

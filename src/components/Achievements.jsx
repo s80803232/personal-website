@@ -140,12 +140,17 @@ export default function Achievements() {
           </div>
 
           <div className="timeline card reveal">
-            <p className="eyebrow">Career</p>
-            <h3>學經歷里程碑</h3>
+            <p className="eyebrow eyebrow--career">
+              <span className="dot" /> 職涯發展 · 專業顧問
+            </p>
+            <h3>職涯發展與學經歷歷程</h3>
             <ol>
               {timeline.map((t) => (
                 <li key={t.period + t.role}>
-                  <span className="timeline__period">{t.period}</span>
+                  <div className="timeline__header">
+                    <span className="timeline__period">{t.period}</span>
+                    {t.tag && <span className="timeline__tag">{t.tag}</span>}
+                  </div>
                   <strong>{t.role}</strong>
                   <span className="timeline__org">{t.org}</span>
                 </li>
